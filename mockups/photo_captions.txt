@@ -2,9 +2,20 @@
 Hay Bales
 I love hay bales. Took this snap on a drive through the countryside past some straw fields.
 
-02.jpg
-Lake
-The lake was so calm today. We had a great view of the snow on the mountains from here.
+const obj1 = {
+    file_name: "01.jpg",
+    title: "Hay Bales",
+    caption: "I love hay bales. Took this snap on a drive through the countryside past some straw fields."
+}
+const pics = [{file_name: "01.jpg",
+    title: "Hay Bales",
+    caption: "I love hay bales. Took this snap on a drive through the countryside past some straw fields."},{file_name: "02.jpg",
+title: "Lake",
+caption: "The lake was so calm today. We had a great view of the snow on the mountains from here."}]
+
+file_name: "02.jpg",
+title: "Lake",
+caption: "The lake was so calm today. We had a great view of the snow on the mountains from here."
 
 03.jpg
 Canyon

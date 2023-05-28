@@ -4,17 +4,57 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/lightbox.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Photo Gallery</title>
   </head>
   <body>
     <div class="search-bar">
-      <input placeholder="Search" />
+      <input placeholder="Search" id="words" />
     </div>
     <div class="container">
-    
+      <div class="grid">
+        <a href="images/01.jpg" data-lightbox="gallery" data-title="hello"
+          ><img src="images/thumbnails/01.jpg"
+        /></a>
       </div>
+      <div class="grid">
+        <a href="images/thumbnails/02.jpg" data-lightbox="gallery"
+          ><img src="images/thumbnails/02.jpg"
+        /></a>
+      </div>
+      <!--div class="grid">
+        <a href="images/thumbnails/03.jpg" data-lightbox="gallery" />
+      </!--div>
+      <div class="grid">
+        <a href="images/thumbnails/04.jpg" data-lightbox="gallery" />
+      </div>
+      <div class="grid">
+        <a href="images/thumbnails/05.jpg" data-lightbox="gallery" />
+      </div>
+      <div class="grid">
+        <a href="images/thumbnails/06.jpg" data-lightbox="gallery" />
+      </div>
+      <div class="grid">
+        <a href="images/thumbnails/07.jpg" data-lightbox="gallery" />
+      </div>
+      <div class="grid">
+        <a href="images/thumbnails/08.jpg" data-lightbox="gallery" />
+      </div>
+      <div class="grid">
+        <a href="images/thumbnails/09.jpg" data-lightbox="gallery" />
+      </div>
+      <div class="grid">
+        <img href="images/thumbnails/10.jpg" data-lightbox="gallery" />
+      </div>
+      <div-- class="grid"></div-->
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/lightbox.min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
